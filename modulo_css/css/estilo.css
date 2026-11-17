@@ -1,0 +1,41 @@
+/*
+setor{
+    propriedade:valor:
+    outra-propriedade: valor;
+}
+    */
+    h1 {
+        color:rgb(194, 24, 58);
+        font-size: 16px;
+    }
+    /*
+    Tipos de seletores:
+    * (universal): Aplica o estilo a todos os elementos html
+    tag (tipo(elemento)): Aplicao estilo a todos os locais
+    que tiveram a mesma tag. Ex.: <p> <h1> <li>
+    ,destaque (classe): Elementos com class="destaque"
+    #topo (id): Aplicado aos com id="topo"
+    a["target="_blank"](atrito): Elementos com o atributos e valor indicados
+    h1 , h2, h3 (Agrupamento): Estilo aplicado a todas as tags listadas no agrupamento
+    
+    Diferença deClasse id:
+    Classe: Pode ser usada usada várias vezes na página e um elementos 
+    pode ter várias classes
+    id:É único na página e só utilizado uma vez
+
+    combinadores:
+    - Descendentes : Exemplo: nav a -> Todos  os <0> dentro de <nav> (em qualquer nível)
+    -Filho Direito: Exemplo: ul > li -> <li> que são filhos direitos de <ul>
+    -Irmão Adjacente : Exemplo: h2 -> p  -> <p> imediatamente após um <h2>
+    Exemplos aplicadas:
+    */
+    nav a {
+        background-color:blueviolet;
+    }
+
+    ul> li (
+        color:
+    )
+
+
+
